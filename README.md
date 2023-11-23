@@ -119,3 +119,78 @@ install-mail-server
 
 
 ![image](https://github.com/sangbinlee/install-mail-server/assets/4024414/f6a521ac-0b74-4855-a925-e3d6be1e6b3f)
+
+
+
+
+
+
+
+
+
+
+        
+                
+        
+        
+        sammy@master:~$ ll
+        total 24
+        drwxr-x--- 3 sammy sammy 4096 Nov 24 02:32 ./
+        drwxr-xr-x 4 root  root  4096 Nov 24 02:26 ../
+        -rw-r--r-- 1 sammy sammy  220 Nov 24 02:26 .bash_logout
+        -rw-r--r-- 1 sammy sammy 3771 Nov 24 02:26 .bashrc
+        drwx------ 2 sammy sammy 4096 Nov 24 02:32 .cache/
+        -rw-r--r-- 1 sammy sammy  807 Nov 24 02:26 .profile
+        sammy@master:~$ ssh-keygen
+        Generating public/private rsa key pair.
+        Enter file in which to save the key (/home/sammy/.ssh/id_rsa):
+        Created directory '/home/sammy/.ssh'.
+        Enter passphrase (empty for no passphrase):
+        Enter same passphrase again:
+        Your identification has been saved in /home/sammy/.ssh/id_rsa
+        Your public key has been saved in /home/sammy/.ssh/id_rsa.pub
+        The key fingerprint is:
+        SHA256:U4xDLWOBkcetcjMN6EOzDUO2A0gcQmW4I3foK45MWSU sammy@master
+        The key's randomart image is:
+        +---[RSA 3072]----+
+        |o+==..+*o+       |
+        | o+  oOoBoo      |
+        |  .E +oOo*o      |
+        |.oo + =.*o.      |
+        |.o.o   +So       |
+        |  +      .       |
+        | o .             |
+        |= .              |
+        |o+               |
+        +----[SHA256]-----+
+        sammy@master:~$ ll
+        total 28
+        drwxr-x--- 4 sammy sammy 4096 Nov 24 02:36 ./
+        drwxr-xr-x 4 root  root  4096 Nov 24 02:26 ../
+        -rw-r--r-- 1 sammy sammy  220 Nov 24 02:26 .bash_logout
+        -rw-r--r-- 1 sammy sammy 3771 Nov 24 02:26 .bashrc
+        drwx------ 2 sammy sammy 4096 Nov 24 02:32 .cache/
+        -rw-r--r-- 1 sammy sammy  807 Nov 24 02:26 .profile
+        drwx------ 2 sammy sammy 4096 Nov 24 02:36 .ssh/
+        sammy@master:~$
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
